@@ -3,7 +3,8 @@ NAME	= my_libc.a
 CC	= cc
 CFLAGS	= -Wall -Wextra -Werror
 
-SRC	= my_strlen.c
+SRC	= my_strlen.c \
+	  my_strcpy.c
 
 OBJ	= $(SRC:.c=.o)
 
