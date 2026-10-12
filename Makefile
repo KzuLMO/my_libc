@@ -5,7 +5,8 @@ CFLAGS	= -Wall -Wextra -Werror
 
 SRC	= my_strlen.c \
 	  my_strcpy.c \
-	  my_strncpy.c
+	  my_strncpy.c \
+	  my_strcat.c
 
 OBJ	= $(SRC:.c=.o)
 
