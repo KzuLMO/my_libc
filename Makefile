@@ -23,7 +23,8 @@ SRC	= my_strlen.c \
 	  my_strlcpy.c \
 	  my_strlcat.c \
 	  my_explicit_bzero.c \
-	  my_reallocarray.c
+	  my_reallocarray.c \
+	  my_isalpha.c
 
 OBJ	= $(SRC:.c=.o)
 
