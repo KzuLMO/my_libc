@@ -26,7 +26,8 @@ SRC	= my_strlen.c \
 	  my_reallocarray.c \
 	  my_isalpha.c \
 	  my_isdigit.c \
-	  my_isalnum.c
+	  my_isalnum.c \
+	  my_isspace.c
 
 OBJ	= $(SRC:.c=.o)
 
