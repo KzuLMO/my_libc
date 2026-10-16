@@ -14,7 +14,8 @@ SRC	= my_strlen.c \
 	  my_strrchr.c \
 	  my_strstr.c \
 	  my_memset.c \
-	  my_memcpy.c
+	  my_memcpy.c \
+	  my_memmove.c
 
 OBJ	= $(SRC:.c=.o)
 
