@@ -21,7 +21,8 @@ SRC	= my_strlen.c \
 	  my_strdup.c \
 	  my_strtok.c \
 	  my_strlcpy.c \
-	  my_strlcat.c
+	  my_strlcat.c \
+	  my_explicit_bzero.c
 
 OBJ	= $(SRC:.c=.o)
 
