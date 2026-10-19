@@ -29,7 +29,8 @@ SRC	= my_strlen.c \
 	  my_isalnum.c \
 	  my_isspace.c \
 	  my_isprint.c \
-	  my_toupper.c
+	  my_toupper.c \
+	  my_tolower.c
 
 OBJ	= $(SRC:.c=.o)
 
