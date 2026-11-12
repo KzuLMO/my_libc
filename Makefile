@@ -30,7 +30,8 @@ SRC	= my_strlen.c \
 	  my_isspace.c \
 	  my_isprint.c \
 	  my_toupper.c \
-	  my_tolower.c
+	  my_tolower.c \
+	  my_strnlen.c
 
 OBJ	= $(SRC:.c=.o)
 
